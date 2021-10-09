@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+html{
+    font-size: 62.5%;
+}
+nav ul{
+    margin-top: 6rem;
+    list-style: none;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+nav .nav-center-section .logo-icon{
+    background-image: url("http://pngimg.com/uploads/wikipedia/wikipedia_PNG11.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 17.6rem;
+    height: 3.2rem;
+}
