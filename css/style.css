@@ -28,3 +28,36 @@ nav .nav-center-section .logo-icon{
     width: 17.6rem;
     height: 3.2rem;
 }
+/*Main top*/
+main section{
+    margin: 0 auto;
+}
+main .main-top{
+    width: 600px;
+    font-size: 1.6rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    color: #36c;
+    font-size: 1.6rem;
+}
+main span{
+    font-size: 1.3rem;
+    color: #54595d;
+}
+h3, span{
+    text-align: center;
+}
+.main-top .main-top-español h3:hover, .main-top .main-top-english h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*main middle*/
+main .main-middle{
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 0.55fr 1fr;
+}
