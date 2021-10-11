@@ -29,13 +29,11 @@ nav .nav-center-section .logo-icon{
     height: 3.2rem;
 }
 /*Main top*/
-main section{
-    margin: 0 auto;
-}
 main .main-top{
-    width: 600px;
+    margin: 0 auto;
+    width: 42rem;
     font-size: 1.6rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
 }
@@ -50,14 +48,133 @@ main span{
 h3, span{
     text-align: center;
 }
+.main-top .main-top-español, .main-top .main-top-english{
+    padding: 0.5rem 2rem;    
+}
 .main-top .main-top-español h3:hover, .main-top .main-top-english h3:hover{
     text-decoration: underline;
     cursor: pointer;
 }
+.main-top .main-top-español:hover, .main-top .main-top-english:hover{
+    background-color: #eaecf0;
+}
 /*main middle*/
 main .main-middle{
-    width: 100%;
-    height: 100px;
-    display: grid;
-    grid-template-columns: 1fr 0.55fr 1fr;
+    margin-top: 2rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+main .main-middle-izq .main-middle-izq1{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2.8rem;
+}
+main .main-middle-izq .main-middle-izq2{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2.8rem;
+    margin-right: 0.6rem;
+}
+main .main-middle-izq .main-middle-izq3{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2.8rem;
+}
+main .main-middle-izq1 div, main .main-middle-izq2 div, main .main-middle-izq3 div{
+    padding: 0.5rem 2rem;
+}
+.main-middle .main-middle-izq1 h3:hover, .main-middle .main-middle-izq2 h3:hover, .main-middle .main-middle-izq3 h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.main-middle .main-middle-izq1 div:hover, .main-middle .main-middle-izq2 div:hover, .main-middle .main-middle-izq3 div:hover{
+    background-color: #eaecf0;
+}
+main .main-middle-middle{
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@1.5x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 18.3rem;
+    width: 18.3rem;
+}
+main .main-middle-der .main-middle-der1{
+    display: flex;
+    margin-bottom: 2.8rem;
+}
+main .main-middle-der .main-middle-der2{
+    display: flex;
+    margin-left: 0.6rem;
+    margin-bottom: 2.8rem;
+}
+main .main-middle-der .main-middle-der3{
+    display: flex;
+    margin-bottom: 2.8rem;
+}
+main .main-middle-der1 div, main .main-middle-der2 div, main .main-middle-der3 div{
+    padding: 0.5rem 2rem;
+}
+.main-middle .main-middle-der1 h3:hover, .main-middle .main-middle-der2 h3:hover, .main-middle .main-middle-der3 h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.main-middle .main-middle-der1 div:hover, .main-middle .main-middle-der2 div:hover, .main-middle .main-middle-der3 div:hover{
+    background-color: #eaecf0;
+}
+/*main bottom*/
+main .main-bottom{
+    margin: 0 auto;
+    width: 40rem;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.main-bottom .main-bottom-izq, .main-bottom .main-bottom-der{
+    padding: 0.5rem 2rem;    
+}
+.main-bottom .main-bottom-izq h3:hover, .main-bottom .main-bottom-der h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.main-bottom .main-bottom-izq:hover, .main-bottom .main-bottom-der:hover{
+    background-color: #eaecf0;
+}
+/*Search*/
+main .main-input{
+    margin-top: 3rem;
+    width: 43rem;
+    margin: 3rem auto;
+    display: flex;
+}
+main .main-input .main-input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid #a2a9b1;
+}
+main .main-input .main-input-container:active{
+    border: 0.2rem solid #36c;
+}
+main .main-input .main-input1{
+    width: 33rem;
+    height: 4.4rem;
+    border: none;
+    outline: none;
+}
+main .main-input .main-input2{
+    width: 2rem;
+    height: 4.4rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+main .main-input .micro-icon{
+    background-color: #36c;
+    background-image: url("");    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 6rem;
+    height: 4.6rem;
 }
