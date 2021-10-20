@@ -396,8 +396,57 @@ footer section{
     height: 3.8rem;
     width: 12.4rem;
 }
-#container-right{
+
+
+.container-right{
     width: 100%;
-    min-height: 36rem;
     justify-self: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container-right1{
+    height: 9rem;
+    width: 25rem;
+}
+.container-right1:hover{
+    background-color: #eaecf0;
+}
+.container-right a{
+    display: inline-block;
+    min-height: 5rem;
+    width: 100%;
+    padding: 1em;
+}
+.container-right1 .container-right1-icon{
+    width: 5rem;
+    height: 4.7rem;
+    display: inline-block;
+}
+.container-right1 .container-right1-text{
+    max-width: 70%;
+    display: inline-block;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+.container-right1-text span{
+    display: block;
+    text-align: start;
+}
+#right1-text1{
+    color: #36c;
+}
+#right1-text2{
+    color: #54595d;
+    font-size: 1.3rem;
+}
+
+
+#right1-icon1{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/2000px-Commons-logo.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 4.7rem;
+    width: 4.7rem;
 }
