@@ -347,6 +347,7 @@ footer section{
     margin: 0 auto;
     height: 16rem;
     padding: 0.8rem 2rem 0.8rem 6rem;
+    background-color: #f8f9fa;
 }
 #content-icon{
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Wikipedia%27s_W.svg/2048px-Wikipedia%27s_W.svg.png");
@@ -396,8 +397,6 @@ footer section{
     height: 3.8rem;
     width: 12.4rem;
 }
-
-
 .container-right{
     width: 100%;
     justify-self: right;
@@ -440,8 +439,6 @@ footer section{
     color: #54595d;
     font-size: 1.3rem;
 }
-
-
 #right1-icon1{
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/2000px-Commons-logo.svg.png");
     background-repeat: no-repeat;
@@ -449,4 +446,118 @@ footer section{
     background-size: contain;
     height: 4.7rem;
     width: 4.7rem;
+}
+#right1-icon2{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Wikivoyage-Logo-v3-icon.svg/1200px-Wikivoyage-Logo-v3-icon.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 3.6rem;
+    width: 3.6rem;
+}
+#right1-icon3{
+    background-image: url("https://i.pinimg.com/originals/b1/18/f0/b118f041c05a1f97a3f1a45f3aac82f3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 4.7rem;
+    width: 4.7rem;
+}
+#right1-icon4{
+    background-image: url("https://w7.pngwing.com/pngs/764/157/png-transparent-wikibooks-wikimedia-project-wikimedia-foundation-logo-notification-symbol-blue-angle-text.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 4.7rem;
+    width: 4.7rem;
+}
+#right1-icon5{
+    background-image: url("https://w7.pngwing.com/pngs/142/526/png-transparent-wikinews-logo-asia-wikimedia-foundation-wikipedia-asia-globe-logo-wikimedia-commons.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 4.7rem;
+    width: 4.7rem;
+}
+#right1-icon6{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Notification-icon-Wikidata-logo.svg/1200px-Notification-icon-Wikidata-logo.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 4.7rem;
+    width: 4.7rem;
+}
+#right1-icon7{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wikiversity-logo.svg/1280px-Wikiversity-logo.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 4.7rem;
+    width: 4.7rem;
+}
+#right1-icon8{
+    background-image: url("https://e7.pngegg.com/pngimages/378/688/png-clipart-wikimedia-project-wikimedia-foundation-wikiquote-wikimedia-commons-wikimedia-meta-wiki-internet-blue-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 4.7rem;
+    width: 4.7rem;
+}
+#right1-icon9{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/MediaWiki-2020-icon.svg/1024px-MediaWiki-2020-icon.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 4.7rem;
+    width: 4.7rem;
+}
+#right1-icon10{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Notification-icon-Wikisource-logo.svg/1024px-Notification-icon-Wikisource-logo.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 4.7rem;
+    width: 4.7rem;
+}
+#right1-icon11{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/53/Wikimedia-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 4.7rem;
+    width: 4.7rem;
+}
+#right1-icon12{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Meta-Wiki_Proposed_logo.svg/900px-Meta-Wiki_Proposed_logo.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 4.7rem;
+    width: 4.7rem;
+}
+.footer-end{
+    margin: 1.4rem 0;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+.footer-end ul{
+    text-align: center;
+}
+.footer-end ul li{
+    list-style: none;
+    display: inline-block;
+    color: #54595d;
+    line-height: 1.5;
+}
+.footer-end ul li a{
+    text-decoration: none;
+    color: #36c;
+    margin: 0 1rem;
+}
+.footer-end ul li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer-end .end-pseudoelement::after{
+    content: "\2022";
 }
